@@ -2,7 +2,7 @@ import os
 from flask import Flask, render_template, request, jsonify
 from dotenv import load_dotenv
 from meditrain_ai1 import MedicalChatbot
-from models import db, ChatMessage
+from dbModels import db, ChatMessage
 
 load_dotenv()
 
