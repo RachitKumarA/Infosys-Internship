@@ -44,9 +44,9 @@ To run MediTrain locally, ensure you have the following:
 
 1. Run the application:
    ```bash
-   streamlit run app.py
+   python app.py
    ```
-2. Open the application in your browser (default: [http://localhost:8501](http://localhost:8501/)).
+2. Open the application in your browser (default: [http://localhost:5000](http://localhost:5000/)).
 3. Interact with MediTrain by typing your medical queries in the input box.
 
 ## Project Structure
