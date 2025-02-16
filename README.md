@@ -2,13 +2,12 @@
 
 ## Overview
 
-MediTrain is an AI-powered medical assistant designed to provide users with accurate, empathetic, and clear answers to medical queries. Built using Groq's powerful AI models and Streamlit, MediTrain emphasizes user-friendly interactions while ensuring that users are reminded to seek professional healthcare advice for proper diagnosis and treatment.
+MediTrain is an AI-powered medical assistant designed to provide users with accurate, empathetic, and clear answers to medical queries. Built using Groq's powerful AI models and Flask, MediTrain emphasizes user-friendly interactions while ensuring that users are reminded to seek professional healthcare advice for proper diagnosis and treatment.
 
 ## Features
 
 * **Conversational Context** : Retains the context of recent interactions to provide relevant and cohesive responses.
 * **Medical Focus** : Tailored to assist with general medical questions while avoiding direct diagnoses.
-* **Streamlit UI** : Intuitive and interactive web-based interface for seamless user interaction.
 * **Empathetic Responses** : Ensures responses are clear, considerate, and accurate.
 
 ## Prerequisites
@@ -51,7 +50,7 @@ To run MediTrain locally, ensure you have the following:
 
 ## Project Structure
 
-* **`app.py`** : Main Streamlit application script.
+* **`app.py`** : Main Flask application script.
 * **`requirements.txt`** : List of required Python packages.
 * **`.env`** : Environment file containing sensitive API keys (not included in the repository).
 
